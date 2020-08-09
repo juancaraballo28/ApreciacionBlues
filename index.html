@@ -11,9 +11,16 @@
         margin: 0;
         font-family: 'Nunito', sans-serif;
     }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    a:hover{
+        text-decoration: underline;
+    }
     .container{
         padding: 20px;
-        height: 150vh;
+        height: 200vh;
     }
     .description ,.song{
         padding:  0px 20px;
@@ -30,18 +37,68 @@
         
     }
     .emotions{
-        height: 100%;
+        height: 90%;
         width: 70%;
         display: flex;
         align-items: center;
     }
     .emotion{
-        margin: 5%;
+        margin: 5px;
         height: inherit;
-        width: 20%;
-        border: #e0dada solid 2px;
+        width: 33%;
+        
         border-radius: 10px;
         box-shadow:0 6px 10px 0 rgba(128,98,96,.16);
+    }
+    
+    .magic:hover{
+        background: linear-gradient(#900d0d, #f0a500);
+        
+    }
+    .a1:hover{
+        background: linear-gradient(#ffffdd, #394989);
+    }
+    .a2:hover{
+
+    }
+    .a3:hover{
+
+    }
+    .scientist:hover{
+        background: linear-gradient(#ffffdd, #394989);
+    }
+    .b1:hover{
+
+    }
+    .b2:hover{
+
+    }
+    .b3:hover{
+
+    }
+    .viva:hover{
+        background: linear-gradient(#c4fb6d, #ffa931);
+    }
+    .c1:hover{
+
+    }
+    .c2:hover{
+
+    }
+    .c3:hover{
+
+    }
+    .clocks:hover{
+        background: linear-gradient(#99b898,#17706e) ;
+    }
+    .d1:hover{
+
+    }
+    .d2:hover{
+
+    }
+    .d3:hover{
+
     }
 </style>
 <body>
@@ -50,36 +107,36 @@
             <h1>Coldplay</h1>
         
         </div>
-        <div class="song">
-            <h1>Magic</h1>
+        <div class="song magic">
+            <h1><a target="_blank" href="https://www.youtube.com/watch?v=1PvBc2TOpE4">Magic</a> </h1>
             <div class="emotions">
-                <div class="emotion"></div>
-                <div class="emotion"></div>
-                <div class="emotion"></div>
+                <div class="emotion a1"></div>
+                <div class="emotion a2"></div>
+                <div class="emotion a3"></div>
             </div>
         </div>
-        <div class="song">
-            <h1>The scientist</h1>
+        <div class="song scientist">
+            <h1> <a target="_blank" href="https://www.youtube.com/watch?v=RB-RcX5DS5A">The scientist</a> </h1>
             <div class="emotions">
-                <div class="emotion"></div>
-                <div class="emotion"></div>
-                <div class="emotion"></div>
+                <div class="emotion b1"></div>
+                <div class="emotion b2"></div>
+                <div class="emotion b3"></div>
             </div>
         </div>
-        <div class="song">
+        <div class="song viva">
             <h1>Viva la vida</h1>
             <div class="emotions">
-                <div class="emotion"></div>
-                <div class="emotion"></div>
-                <div class="emotion"></div>
+                <div class="emotion c1"></div>
+                <div class="emotion c2"></div>
+                <div class="emotion c3"></div>
             </div>
         </div>
-        <div class="song">
+        <div class="song clocks">
             <h1>Clocks</h1>
             <div class="emotions">
-                <div class="emotion"></div>
-                <div class="emotion"></div>
-                <div class="emotion"></div>
+                <div class="emotion d1"></div>
+                <div class="emotion d2"></div>
+                <div class="emotion d3"></div>
             </div>
         </div>
     </div>
