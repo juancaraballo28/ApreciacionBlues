@@ -16,10 +16,30 @@
         height: 150vh;
     }
     .description ,.song{
-        padding: 20px;
-        margin: 20px;
+        padding:  0px 20px;
+        margin: 40px 0px;
         border: #e0dada solid 2px;
         height: 20%;
+        border-radius: 10px;
+        box-shadow:0 6px 10px 0 rgba(128,98,96,.16);
+    }
+    .song{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        
+    }
+    .emotions{
+        height: 100%;
+        width: 70%;
+        display: flex;
+        align-items: center;
+    }
+    .emotion{
+        margin: 5%;
+        height: inherit;
+        width: 20%;
+        border: #e0dada solid 2px;
         border-radius: 10px;
         box-shadow:0 6px 10px 0 rgba(128,98,96,.16);
     }
@@ -27,19 +47,40 @@
 <body>
     <div class="container">
         <div class="description">
-            <h1>Coldplay </h1>
+            <h1>Coldplay</h1>
+        
         </div>
         <div class="song">
             <h1>Magic</h1>
+            <div class="emotions">
+                <div class="emotion"></div>
+                <div class="emotion"></div>
+                <div class="emotion"></div>
+            </div>
         </div>
         <div class="song">
             <h1>The scientist</h1>
+            <div class="emotions">
+                <div class="emotion"></div>
+                <div class="emotion"></div>
+                <div class="emotion"></div>
+            </div>
         </div>
         <div class="song">
             <h1>Viva la vida</h1>
+            <div class="emotions">
+                <div class="emotion"></div>
+                <div class="emotion"></div>
+                <div class="emotion"></div>
+            </div>
         </div>
         <div class="song">
             <h1>Clocks</h1>
+            <div class="emotions">
+                <div class="emotion"></div>
+                <div class="emotion"></div>
+                <div class="emotion"></div>
+            </div>
         </div>
     </div>
     
