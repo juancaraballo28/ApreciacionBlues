@@ -31,6 +31,12 @@
         border-radius: 10px;
         box-shadow:0 6px 10px 0 rgba(128,98,96,.16);
     }
+    .description{
+        height: 30%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
     .song{
         display: flex;
         align-items: center;
@@ -95,35 +101,62 @@
         background: linear-gradient(#c4fb6d, #ffa931);
     }
     .c1:hover{
-
+        background: linear-gradient(#d3de32, #86c4ba);
     }
     .c2:hover{
-
+        background: linear-gradient(#c81912,#ff4301);
     }
     .c3:hover{
-
+        background: linear-gradient(#6a197d,#efee9d);
     }
     .clocks:hover{
         background: linear-gradient(#111d5e ,#f3c623);
     }
     .d1:hover{
-
+        background: linear-gradient(#810000,#7c3c21);
     }
     .d2:hover{
-
+        color: black;
+        background: linear-gradient(#fff48f,#a3f7bf);
     }
     .d3:hover{
-
+        background: linear-gradient(#ff5722,#0f4c75);
+    }
+    span{
+        color: #f3c623;
+    }
+    h1{
+        font-size: 40px;
+    }
+    .name{
+        color: black;
+        font-size: .3em;
     }
 </style>
 <body>
     <div class="container">
         <div class="description">
-            <h1>Coldplay</h1>
-        
+            <h1> <span>Col</span>[or]<span>dplay</span> <span class="name">by Juan Caraballo</span></h1>
+            <p>Al escuchar una canción, la totalidad de esta puede transmitir <br>
+                ciertas emociones, sin embargo a lo largo de esta, algunas partes <br>
+                en especifico pueden generar otro tipo de sensación que combinadas <br>
+                dan como resultado la emocion inicial que se mencionó, <br> es decir 
+    
+                la precepción de la cancón como un todo. <br>
+
+                En este caso el cuadro principal que contiene el nombre de la canción representa <br>
+                los colores que identifican las emociones de la canción en su totalidad y dentro de <br>
+                esta distingo las partes que me producen una sensación diferente de acuerdo a su letra
+                y su ritmo. <br>
+
+                <br> Para ver la aparición de los colores es necesario pasar el cursor sobre estos. Debe realizarse <br>
+                desde un computador. Cada título tiene un enlace al video de la canción en Youtube.<br>
+
+                <br> Juan Felipe Caraballo 201923741.
+            </p>
         </div>
         <div class="song magic">
-            <h1><a target="_blank" href="https://www.youtube.com/watch?v=1PvBc2TOpE4">Magic</a> </h1>
+            <h1><a target="_blank" href="https://www.youtube.com/watch?v=Qtb11P1FWnc">Magic</a> </h1>
             <div class="emotions">
                 <div class="emotion a1">
                     
@@ -177,17 +210,53 @@
         <div class="song viva">
             <h1><a target="_blank" href="https://www.youtube.com/watch?v=dvgZkm1xWPE">Viva la vida</a></h1>
             <div class="emotions">
-                <div class="emotion c1"></div>
-                <div class="emotion c2"></div>
-                <div class="emotion c3"></div>
+                <div class="emotion c1">
+                    I used to rule the world <br>
+                    Seas would rise when I gave the word <br>
+                    Now in the morning, I sleep alone <br>
+                    Sweep the streets I used to own
+                </div>
+                <div class="emotion c2">
+                    I hear Jerusalem bells are ringing <br>
+                    Roman Cavalry choirs are singing <br>
+                    Be my mirror, my sword and shield <br>
+                    My missionaries in a foreign field <br>
+                    For some reason I can't explain <br>
+                    Once you go there was never, never an honest word <br>
+                    And that was when I ruled the world <br>
+                </div>
+                <div class="emotion c3">
+                    Oh, oh, oh, oh, oh <br>
+                    Oh, oh, oh, oh, oh <br>
+                    Oh, oh, oh, oh, oh <br>
+                    Oh, oh, oh, oh, oh <br>
+                    Oh, oh, oh, oh, oh
+                </div>
             </div>
         </div>
         <div class="song clocks">
             <h1><a target="_blank" href="https://www.youtube.com/watch?v=d020hcWA_Wg">Clocks</a></h1>
             <div class="emotions">
-                <div class="emotion d1"></div>
-                <div class="emotion d2"></div>
-                <div class="emotion d3"></div>
+                <div class="emotion d1">
+                    The lights go out and I can't be saved <br>
+                    Tides that I tried to swim against <br>
+                    Have brought me down upon my knees <br>
+                    Oh I beg, I beg and plead, singing
+                </div>
+                <div class="emotion d2">
+                    You are, you are <br>
+                    You are, you are <br>
+                    You are, you are <br>
+                    And nothing else compares <br>
+                    And nothing else compares <br>
+                    And nothing else compares 
+                </div>
+                <div class="emotion d3">
+                    Home, home, where I wanted to go <br>
+                    Home, home, where I wanted to go <br>
+                    Home, home, where I wanted to go (You are) <br>
+                    Home, home, where I wanted to go (You are)
+                </div>
             </div>
         </div>
     </div>
